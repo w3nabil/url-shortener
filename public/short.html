@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Done...</title>
+</head>
+<body>
+    <h1 style="text-align: center;">EASY SHORTENER <span style="font-size: 20px; color: darkgray;">by NABIL</span></h1>
+    <form action="/short" method="POST" style="text-align: center;">
+      <input type="text" name="url" placeholder="Enter your URL" style="width: 50%; padding: 10px; margin: 10px;">
+      <button type="submit" style="padding: 10px; margin: 10px;">Shorten</button>
+    </form>
+    <h4>Your BIG URL was : {{url}} , Your Short url is : http://localhost:5000/go/{{id}}</h4>
+</body>
+</html>
